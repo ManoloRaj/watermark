@@ -1,8 +1,8 @@
 import cv2
 
 # Charger les images
-image_principale = cv2.imread("DSC_7889.jpg")
-watermark = cv2.imread("Logo DEV.png", cv2.IMREAD_UNCHANGED)
+image_principale = cv2.imread("DSC_7938.jpg")
+watermark = cv2.imread("water_dark.png", cv2.IMREAD_UNCHANGED)
 
 # Définir les coordonnées pour positionner le watermark sur le côté droit
 x_offset = image_principale.shape[1] - watermark.shape[1] - 10
